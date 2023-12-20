@@ -21,5 +21,5 @@ if you want to customise the email body, you can edit it here:
   Logger.log('Campaign "' + campaignName + '" not paused. Current spend: ' + spend + ' €');
 }
 ```
-# limitation
+# Limitation
 the code was tested for Search campaigns and worked fine, however, for Performance Max it didn't work. I created a new code specifically for the Performance Max campaigns
