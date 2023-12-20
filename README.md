@@ -3,7 +3,7 @@ This Code will pause your campaign when it reaches a specific threshold. The cod
 
 # Setup
 
-Customise the code as you want. Please add the exactname of your campaign. Please note that this code was made to pause one campaign ONLY.
+Customise the code as you want. Please add the exact name of your campaign. Please note that this code was made to pause one campaign ONLY.
 
 ```javascript
 var campaignName = 'CAMPAIGN_NAME'; // Write the exact name of your campaign
@@ -21,5 +21,5 @@ if you want to customise the email body, you can edit it here:
   Logger.log('Campaign "' + campaignName + '" not paused. Current spend: ' + spend + ' €');
 }
 ```
-# Limitation
+# Limitations
 the code was tested for Search campaigns and worked fine, however, for Performance Max it didn't work. I created a new code specifically for the Performance Max campaigns
